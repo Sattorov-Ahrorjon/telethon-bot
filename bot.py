@@ -57,7 +57,7 @@ async def handle_post_command(event):
                 )
             except BaseException as e:
                 print(e)
-            time.sleep(2)
+            time.sleep(30)
 
         await event.respond("Habar yuborildi!")
     raise events.StopPropagation
